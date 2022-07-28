@@ -31,7 +31,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
+                <a class="nav-link" href="#courses">Courses</a>
               </li>
               
               <li class="nav-item">
@@ -41,7 +41,7 @@
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#Subscribe">Subscribe</a>
               </li>
             </ul>
             <div>
@@ -88,8 +88,8 @@
               <div class="carousel-caption d-none d-md-block d-sm-block  position-absolute top-50 ">
                 <h1 class="font-lg">Get Started Digital Learning</h1>
                 <p>Distance learning is the necessity of time being for the present time of the extreme pandemic.</p>
-                <div class="d-sm-block justify-content-center align-items-center mb-sm-5 ">
-                  <button class="btn btn-primary ">Get Started</button>
+                <div class="d-sm-block justify-content-center align-items-center mb-md-5 ">
+                  <button class="btn btn-primary  ">Get Started</button>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@
 
     <main class="container">
       <!-- courses section start -->
-      <section class=" container">
+      <section id="courses" class=" container">
         <h1 class="text-center">Discover Our Popular Courses</h1>
         <p class="text-center">We are running lots of courses, so don't waste your time and just get started ASAP! <br> Here are our running courses.Choose your future.</p>
         <div class="  row row-cols-1 d-md-inline-flex  ">
@@ -232,7 +232,7 @@
 
       <!-- ready to join section start-->
 
-      <section class="container mb-5">
+      <section id="Subscribe" class="container mb-5">
         <div class="bg-primary container row ">
           <div class="d-lg-block d-md-block justify-content-md-center  p-5 col-lg-8">
             <h1 class="text-light">Ready to join?
@@ -240,7 +240,27 @@
             <p class="text-light">Join us for getting updates about new courses and our offers. Latest news about available techs and discounts.</p>
           </div>
           <div class=" col-lg-4  d-lg-flex d-md-flex d-sm-flex justify-content-md-around align-items-md-center mb-md-3 justify-content-sm-around mb-sm-3">
-            <button class="btn btn-light text-primary fw-bolder ">Subscribe</button>
+            <button type="button" class="btn btn-light text-primary fw-bolder " data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Subscribe</button>
+              <!-- modal start -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title logo" id="exampleModalLabel">Successful!!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body logo-other-part fw-bolder">
+                      Horrah!! You are now one of us!! <span class="text-info">Congratulations!!</span> 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal end -->
           </div>
         </div>
 
@@ -341,8 +361,8 @@
       <div class="d-block mt-5">
         
           <h1 class="logo text-center">PATH<span class="logo-other-part">SHALA</span> </h1>
-          <p class="text-light">Office 41, Zawaya Buildin, Ghala Muscat, 
-           Sultanate of Oman</p>
+          <p class="text-light">Office 41,Pantha path Kawran Bazar, Dhaka-3500,Dhaka, 
+           Bangladesh</p>
            <p class="text-light text-center">Privacy Ploicy | Terms of use</p>
            <div class="d-flex justify-content-center ">
             <a href=""><i class="fa-brands fa-facebook-f social-logo "></i></a>
