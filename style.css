@@ -6,6 +6,9 @@
     width: 100%;
 
 }
+.medium-screen{
+    visibility: hidden;
+}
 
 .carousel-item::before{
     content: "";
